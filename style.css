@@ -1,0 +1,63 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(209, 243, 243);
+}
+
+html{
+    font-size: 24px;
+}
+.newspaper{
+    font-size: 16px;
+    font-family: Open Sans, sans-serif;
+    border-radius: 30px;
+    box-shadow: 0 0 15px gray;
+    width: 45%;
+    min-width: 30%;
+    height: auto;
+    min-height: 80%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 60px;
+    background-color:white ;
+}
+p, h1{
+    margin: 1px;
+}
+.headline , .sub-headline, .author{
+    align-self: flex-start;
+}
+.name{
+    font-family:Times New Roman, serif ;
+    font-size: 2rem;
+    text-transform:uppercase;
+}
+
+
+.headline{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.sub-headline{
+    font-weight:100;
+    font-size: 1.5em;
+    font-style: italic;
+    margin: 10px 0;
+}
+.author{
+    font-weight: bold;
+    margin: 10px 0;
+    text-transform:uppercase;
+}
+.text{
+    text-indent: 20px;
+    line-height: 2em;
+}
+.text::first-letter{
+    font-size: 2em;
+    font-weight: bold;
+}
